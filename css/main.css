@@ -1,0 +1,58 @@
+
+#app {}
+
+#header {
+  padding: 10px;
+  background-color: black;
+  color: chocolate;
+  position: fixed;
+  width: 100%;
+}
+
+#content {
+  padding-top: 50px;
+}
+
+#footer {}
+
+.item {
+  margin-bottom: 10px;
+}
+
+.item-panel {
+  padding: 3px;
+  /*background-color: #777777;*/
+  /*color: #d2cad0;*/
+}
+span[class^="btn"] {
+  font-weight: bold;
+  text-decoration: underline;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+[class^="column"] {
+  margin: 5px;
+  border: 2px #5d5d5d solid;
+  vertical-align: top;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+[class^="column"] .title {
+  padding: 3px;
+  /*background-color: #5d5d5d;*/
+  /*color: #ffffff;*/
+  font-size: 1.5em;
+  line-height: 1.25;
+}
+
+[class^="column"] .description {
+  padding: 3px;
+}
+
+.column1 {}
+
+.column2 {}
+
+
